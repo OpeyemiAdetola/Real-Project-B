@@ -39,7 +39,6 @@ app.get('/:table', function (req, res) {
     });
 });
 
-
 //POST routes
 app.post('/', function (req, res) {
     let foodData = req.body;
